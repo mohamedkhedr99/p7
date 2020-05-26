@@ -1,0 +1,663 @@
+/** Start Section 1 Menu **/
+.BackGround {
+  background: black;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.Bar {
+  background: url("../Pics/Header.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.Overlay {
+  background: rgb(49, 55, 61, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.BackGround .container {
+  padding-top: 15px;
+}
+
+.SociaIcons i {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.Search p,
+i {
+  display: inline;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.BackGround i:hover,
+.Search p:hover {
+  color: #ff5616;
+}
+
+/**Start NavBar**/
+.lol span {
+  font-weight: bold;
+  color: #ff5616;
+}
+
+ul > li > a > span:hover,
+ul > li > a > span:focus {
+  color: #ffffff;
+}
+
+.logoali {
+  width: 30%;
+}
+
+/**Start NavBar**/
+.Font {
+  min-height: calc(100vh - 98px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Font h1 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+}
+
+.Font p {
+  color: white;
+  font-family: "Ranga", cursive;
+  font-size: 30px;
+}
+
+.Font button {
+  background: transparent;
+  width: 180px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #909090;
+  border-radius: 10px;
+  -webkit-trastion: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transtion: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.Font button:hover {
+  background: #ff5616;
+  border: 1px solid #ff5616;
+}
+
+.Font i {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #909090;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  /** ba5ly l effects tezhar fe .5 secnd **/
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.Font i:hover {
+  background: #ff5616;
+  border: 1px solid #ff5616;
+}
+
+/** End Section 1 Menu **/
+/** Start Section 2 Service **/
+.Service {
+  background: black;
+  padding-bottom: 50px;
+}
+
+.Service h1 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Service i {
+  border: 2px solid #909090;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  color: #ff5616;
+}
+
+.Service i:hover {
+  background: #ff5616;
+  border: 1px solid #ff5616;
+  color: #fff;
+}
+
+.Service .Box h3 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+}
+
+.Service .Box p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+/** End Section 2 Service **/
+/** Start Section 3 Car **/
+.CarWords {
+  padding-bottom: 60px;
+}
+
+.CarWords .Words {
+  padding-top: 60px;
+}
+
+.CarWords .Pic {
+  padding-top: 80px;
+}
+
+.CarWords .Words h3 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+}
+
+details {
+  border: 2px solid #ff5616;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+details summary:hover {
+  color: #ff5616;
+}
+
+details summary::-webkit-details-marker {
+  /** arrow in details **/
+  color: #ff5616;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.Hid1,
+.Hid2,
+.Hid3 {
+  background: #ff5616;
+  border: 2px solid #ff5616;
+  margin: 5px 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  display: none;
+}
+
+.box1,
+.box2,
+.box3 {
+  padding: 5px 0;
+}
+
+/** End Section 3 Car **/
+/** Start Section 4 Form **/
+.BigBox {
+  background: black;
+}
+
+.BigBox .container {
+  padding: 50px 20px;
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #fff;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: black transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #ff5616 transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: #ff5616;
+  color: #fff;
+}
+
+.BigBox .SelectCar {
+  float: right;
+  padding-bottom: 20px;
+}
+
+.BigBox .SelectType {
+  padding-bottom: 20px;
+}
+
+.BigBox .SelectYear {
+  float: right;
+}
+
+.but button {
+  background: transparent;
+  width: 180px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #909090;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  -webkit-trastion: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transtion: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.but button:hover {
+  background: #ff5616;
+  border: 1px solid #ff5616;
+}
+
+/**Video**/
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.26%;
+  height: 0;
+}
+
+.iframe-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 7px solid #ff5616;
+  border-radius: 20px;
+}
+
+.Selectors {
+  margin-top: 70px;
+}
+
+/** End Section 4 Form **/
+/** Start Section 5 Car Features **/
+.FEATUREDCARS {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+  margin: 60px 0;
+}
+
+.Feature1,
+.Feature2,
+.Feature3,
+.Feature4,
+.Feature5,
+.Feature6,
+.Feature7,
+.Feature8,
+.Feature9,
+.Feature10,
+.Feature11,
+.Feature12 {
+  border: 3px solid #ff5616;
+  border-radius: 2%;
+  margin-bottom: 25px;
+}
+
+.Feature1 .Image .Img2,
+.Feature2 .Image .Img2,
+.Feature3 .Image .Img2,
+.Feature4 .Image .Img2,
+.Feature5 .Image .Img2,
+.Feature6 .Image .Img2,
+.Feature7 .Image .Img2,
+.Feature8 .Image .Img2,
+.Feature9 .Image .Img2,
+.Feature10 .Image .Img2,
+.Feature11 .Image .Img2,
+.Feature12 .Image .Img2 {
+  display: none;
+}
+
+.Feature1 .Wor h3,
+.Feature2 .Wor h3,
+.Feature3 .Wor h3,
+.Feature4 .Wor h3,
+.Feature5 .Wor h3,
+.Feature6 .Wor h3,
+.Feature7 .Wor h3,
+.Feature8 .Wor h3,
+.Feature9 .Wor h3,
+.Feature10 .Wor h3,
+.Feature11 .Wor h3,
+.Feature12 .Wor h3 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+}
+
+.Feature1 .RightList ul,
+.Feature2 .RightList ul,
+.Feature3 .RightList ul,
+.Feature4 .RightList ul,
+.Feature5 .RightList ul,
+.Feature6 .RightList ul,
+.Feature7 .RightList ul,
+.Feature8 .RightList ul,
+.Feature9 .RightList ul,
+.Feature10 .RightList ul,
+.Feature11 .RightList ul,
+.Feature12 .RightList ul {
+  list-style-type: none;
+  font-weight: bold;
+  color: #ff5616;
+}
+
+.Feature1 .Wor .BUT1,
+.Feature2 .Wor .BUT1,
+.Feature3 .Wor .BUT1,
+.Feature4 .Wor .BUT1,
+.Feature5 .Wor .BUT1,
+.Feature6 .Wor .BUT1,
+.Feature7 .Wor .BUT1,
+.Feature8 .Wor .BUT1,
+.Feature9 .Wor .BUT1,
+.Feature10 .Wor .BUT1,
+.Feature11 .Wor .BUT1,
+.Feature12 .Wor .BUT1 {
+  margin: 20px 0;
+  background: #fff;
+  width: 180px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #ff5616;
+  font-size: 14px;
+  border: 1px solid #ff5616;
+  border-radius: 10px;
+  -webkit-trastion: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transtion: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.Feature1 .Wor .BUT2,
+.Feature2 .Wor .BUT2,
+.Feature3 .Wor .BUT2,
+.Feature4 .Wor .BUT2,
+.Feature5 .Wor .BUT2,
+.Feature6 .Wor .BUT2,
+.Feature7 .Wor .BUT2,
+.Feature8 .Wor .BUT2,
+.Feature9 .Wor .BUT2,
+.Feature10 .Wor .BUT2,
+.Feature11 .Wor .BUT2,
+.Feature12 .Wor .BUT2 {
+  color: #fff;
+  border: 1px solid #909090;
+  background: #ff5616;
+  margin: 20px 0;
+  width: 180px;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  display: none;
+  -webkit-trastion: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transtion: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.FEATUREDCARSBUTTON button {
+  color: #ff5616;
+  border: 2px solid #ff5616;
+  background: #fff;
+  margin: 20px 0;
+  width: 180px;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  -webkit-trastion: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transtion: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.FEATUREDCARSBUTTON button:hover {
+  color: #fff;
+  border: 1px solid #ff5616;
+  background: #ff5616;
+}
+
+.HIDEEN {
+  display: none;
+}
+
+/** End Section 5 Car Features **/
+/** Start Section 6 LATESTBLOGS **/
+.LATESTBLOGS h1 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.LATESTBLOGS {
+  background: black;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Under,
+.UnderIcons {
+  display: inline;
+}
+
+.UnderIcons {
+  float: right;
+  padding-right: 30px;
+}
+
+.Part1,
+.Part2 {
+  border: 2px solid #909090;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.Part1 .Parag h3,
+.Part2 .Parag h3 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+}
+
+.Part1 .Parag,
+.Part2 .Parag {
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  bottom: 40px;
+  margin-top: 80px;
+}
+
+.Part1:hover,
+.Part2:hover {
+  border: 2px solid #ff5616;
+}
+
+.Part1 .Under span:hover,
+.UnderIcons span:hover,
+.UnderIcons span i:hover,
+.Part2 .Under span:hover,
+.UnderIcons span:hover,
+.UnderIcons span i:hover {
+  cursor: pointer;
+  color: #ff5616;
+}
+
+/** End Section 6 LATESTBLOGS **/
+/** Start Section 7 ContactUs **/
+.Contact {
+  background: url("../Pics/BC.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ContactUS {
+  background: rgba(49, 55, 61, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.container .Con h1 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.container .Con p {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Ranga", cursive;
+  font-size: 30px;
+}
+
+.Con {
+  padding-bottom: 30px;
+}
+
+/** End Section 7 ContactUs**/
+/** Start Section 8 Footer**/
+.FOOTER {
+  background: black;
+  padding: 20px 0;
+}
+
+.FOOTER .part1 img {
+  width: 130px;
+  padding-top: 12px;
+  padding-bottom: 22px;
+}
+
+.FOOTER i {
+  color: #ff5616;
+  padding-right: 10px;
+}
+
+.FOOTER .part1 p,
+.FOOTER .part3 p,
+.FOOTER .part4 p {
+  line-height: 30px;
+}
+
+.FOOTER .part1 p,
+.FOOTER .part2 p,
+.FOOTER .part3 p,
+.FOOTER .part4 p {
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+
+.FOOTER .part1 h3,
+.FOOTER .part2 h3,
+.FOOTER .part3 h3,
+.FOOTER .part4 h3 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+  padding-bottom: 20px;
+}
+
+.FOOTER .part4 form {
+  padding-top: 10px;
+}
+
+.Copyright h4 {
+  color: #ff5616;
+  font-family: "Unlock", cursive;
+  padding-top: 20px;
+}
+
+/** End Section 8 Footer**/
+/** Start Section 9 Scroll to top**/
+.Scroll {
+  right: 35px;
+  cursor: pointer;
+  z-index: 9999;
+  position: fixed;
+  bottom: 40px;
+  display: none;
+}
+
+/** End Section 9 Scroll to top**/
